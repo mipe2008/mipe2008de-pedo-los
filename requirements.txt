@@ -1,0 +1,8 @@
+Archivo de configuración de entorno para la aplicación FastAPI
+
+# Configuración de la base de datos
+DB_HOST= # Tu host aquí (por ejemplo, localhost)
+DB_PORT= # Tu puerto aquí (por ejemplo, 5432)
+DB_NAME= # Tu nombre de base de datos aquí
+DB_USER= # Tu usuario aquí
+DB_PASSWORD= # Tu contraseña aquí

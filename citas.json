@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "cliente_id": 1,
+        "servicio_id": 2,
+        "fecha_hora": "2024-05-01T10:00:00"
+    },
+    {
+        "id": 2,
+        "cliente_id": 2,
+        "servicio_id": 1,
+        "fecha_hora": "2024-05-02T11:30:00"
+    },
+    {
+        "id": 3,
+        "cliente_id": 3,
+        "servicio_id": 3,
+        "fecha_hora": "2024-05-03T14:15:00"
+    }
+]

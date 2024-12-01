@@ -1,0 +1,38 @@
+/api_peluqueria
+│
+├── /src
+│   ├── /controllers      # Controladores para manejar las solicitudes HTTP
+│   │   ├── cliente_controller.py
+│   │   ├── cita_controller.py
+│   │   └── servicio_controller.py
+│   │
+│   ├── /models           # Modelos de datos (definición de clases)
+│   │   ├── cliente.py
+│   │   ├── cita.py
+│   │   └── servicio.py
+│   │
+│   ├── /routes           # Definición de rutas y endpoints
+│   │   └── api_routes.py
+│   │
+│   ├── /services         # Lógica de negocio y operaciones sobre los modelos
+│   │   ├── cliente_service.py
+│   │   ├── cita_service.py
+│   │   └── servicio_service.py
+│   │
+│   ├── /middlewares      # Middleware para autenticación y validación
+│   │   └── auth_middleware.py
+│   │
+│   └── /utils            # Funciones utilitarias (logging, manejo de errores)
+│       └── logger.py
+│
+├── /config               # Configuraciones (variables de entorno, conexión a DB)
+│   └── config.py         # Configuración general del proyecto
+│
+├── /tests                # Pruebas unitarias y de integración
+│   ├── test_clientes.py  
+│   ├── test_citas.py     
+│   └── test_servicios.py  
+│
+├── .env                  # Variables de entorno (ej. DB_URL)
+├── .gitignore            # Archivos a ignorar por git
+└── README.md             # Documentación del proyecto y guía de uso
